@@ -27,14 +27,14 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
 
   // Use the .add() method on the store and pass in the content.
-  const request = store.add({ content });
+  const request = store.put({ jate: content });
 
   // Get confirmation of the request.
   const result = await request;
   console.log('🚀 - data saved to the database', result);
   
   
-  console.error('putDb not implemented')
+  // console.error('putDb not implemented')
 
 };
 
