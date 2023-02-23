@@ -25,7 +25,7 @@ Before running the application, make sure you have installed the packages listed
 
 ## Usage
 
-After running the application with "npm run start", the user is directed to localhost port 3000, and the "JATE" window displayed. Here, users can write text in the text entry fields present on the screen. By clicking the "Install!" button, users can download a copy of the application to use outside of their browser. 
+After running the application with "npm run start", the user is directed to localhost port 3000, and the "JATE" window displayed. Here, users can write text in the text entry field present on the screen. By clicking the "Install!" button, users can download a copy of the application to use outside of their browser. You can also access a version of the application on Heroku here: https://vast-forest-31415.herokuapp.com/
 
 ![JATE](assets/images/jate.png)
 
